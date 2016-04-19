@@ -19,12 +19,17 @@
                 margin-bottom: 100px;
                 margin-top: 100px; }
         .pull-right {float: right;}
-        .centered-thing {
-            position: absolute;
-            margin: auto;
-            left: 50%;
-            transform: translate(-50%);
-                        }
+        .videowrapper { 
+            float: none;
+            clear: both;
+            width: 700px;
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+            margin: 0 auto;
+            max-width: 100%;
+    }
         
     </style>
 </head>
@@ -42,9 +47,11 @@
     <img src="img/logo.png" alt="Logo Drinkulture" title="Drinkulture - drinkers with a biking problem">
     </a>
     </h1>
-    <div class="centered-thing">
+    <center>
+    <div class="videowrapper">
     <iframe src="https://videos.mtb-news.de/embed/player/45215?share=1" width="512" height="313" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><p class="mtbnewsVideosCaption"><a href="http://videos.mtb-news.de/45215/hunting_for_poncha" target="_blank">Hunting for Poncha</a> von <a href="http://videos.mtb-news.de/u/255056" target="_blank">Rotten-Lumber</a> - <a href="http://videos.mtb-news.de/" target="_blank">Mehr Mountainbike-Videos</a></p>
     </div>
+    </center>
     <footer>
         <div class="fb-like-box" data-href="https://www.facebook.com/bikulture" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
     </footer>
